@@ -35,19 +35,18 @@ const App = () => {
         </Grid>
 
       </Grid>
-      <PushToTalkButtonContainer>
+      {/* <PushToTalkButtonContainer>
         <PushToTalkButton />
-      </PushToTalkButtonContainer>
+      </PushToTalkButtonContainer> */}
 
-        <Typography className={classes.mobile} variant='h5' style={{ color: 'white', marginLeft: '1rem', position: 'absolute' }} >
+        {/* <Typography className={classes.mobile} variant='h5' style={{ color: 'white', marginLeft: '1rem', position: 'absolute' }} >
           View code on {' '}
           <a href="https://github.com/Masud28-tech/voice-manager" target='_blank' style={{ textDecoration: 'none' }}>
             Github
           </a>
-        </Typography>
+        </Typography> */}
     </div>
   )
 }
-
 
 export default App;

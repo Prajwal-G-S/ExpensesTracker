@@ -13,7 +13,7 @@ const InputCard = () => {
 
     return (
         <Card className={classes.root}>
-            <CardHeader title="Budget Tracker" subheader="Created by Masud" />
+            <CardHeader title="Budget Tracker" subheader="Created by Prajal G S" />
             <CardContent>
                 <Typography align='center' variant='h5'>
                     Total Balance ₹{totalBalance}
@@ -22,7 +22,7 @@ const InputCard = () => {
                     variant='subtitle1'
                     style={{ lineHeight: '1.5em', marginTop: '20px' }}
                 >
-                    <InfoSpeech />
+                    {/* <InfoSpeech /> */}
                 </Typography>
                 <Divider className={classes.divider} />
                 <Form />
