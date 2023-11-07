@@ -7,7 +7,6 @@ export const TransactionsContext = createContext(initialValues);
 
 export const TransactionsProvider = ({children}) => {
     const [transactions, dispatch] = useReducer(contextReducer, initialValues);
-
     //ACTION CREATORS
     const addTransaction = (transaction) => {
         dispatch({type: "ADD_TRANSACTION", payload: transaction});
