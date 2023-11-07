@@ -16,4 +16,5 @@ How to use:
 
 Project deployed at https://expenses-tracker-ruby.vercel.app/
 
-<img width="1057" alt="image" src="src/assets/preview.PNG">
+<img width="1057" alt="image" src="https://github.com/Prajwal-G-S/ExpensesTracker/blob/main/src/assets/preview.PNG">
+
